@@ -1,4 +1,5 @@
-  //@liv-in-sky 2022  11.01.-10:00-  mit tasmota 10
+// https://github.com/liv-in-sky/sonoff-iobroker-script  
+//@liv-in-sky 2022  11.01.-10:00-  mit tasmota 10
 
  // DAS WIDGET IN DER VIS
  // das Standard html-Widget wird genutzt in der VIS - dazu den DP javascript.x.Tabellen@Liv.SONOFFTabelleVIS als binding angeben d.h.
