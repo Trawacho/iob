@@ -1,0 +1,69 @@
+options {
+	directory "/var/cache/bind";
+	allow-query { any; };
+	allow-transfer { any; };
+	dnssec-validation auto;
+
+	forwarders {
+		5.1.66.255;		// Freifunk Muenchen
+		185.150.99.255;		// Freifunk Muenchen
+		185.95.218.42;		// Digitale Gesellschaft (CH)
+		185.95.218.43;		// Digitale Gesellschaft (CH)
+		94.140.14.14;		// AdGuard DNS mit Werbe- und Trackingfilter
+		1.1.1.1;		// Cloudflare
+		9.9.9.9;		// Quad9
+//		94.140.14.140;		// AdGurad DNS OHNE Werbe- und Trackingfilter
+//		192.168.100.3;
+//		217.237.151.115;	// Provider lt. FritzBox
+//		217.237.148.102;	// Provider lt. FritzBox
+//		194.25.2.129;		// Deutsche Telekom
+//		194.25.2.130;		// Deutsche Telekom
+//		194.25.2.131;		// Deutsche Telekom
+//		8.8.8.8;		// Google	
+//		84.200.69.80;
+	};
+
+};
+
+logging {
+        channel transfers {
+            file "/var/log/bind/transfers" versions 3 size 10M;
+            print-time yes;
+            severity info;
+        };
+        channel notify {
+            file "/var/log/bind/notify" versions 3 size 10M;
+            print-time yes;
+            severity info;
+        };
+        channel dnssec {
+            file "/var/log/bind/dnssec" versions 3 size 10M;
+            print-time yes;
+            severity info;
+        };
+        channel query {
+            file "/var/log/bind/query" versions 5 size 10M;
+            print-time yes;
+            severity info;
+        };
+        channel general {
+            file "/var/log/bind/general" versions 3 size 10M;
+	    print-time yes;
+            severity info;
+        };
+	channel slog {
+	    syslog security;
+	    severity info;
+        };
+        category xfer-out { transfers; slog; };
+        category xfer-in { transfers; slog; };
+        category notify { notify; };
+
+        category lame-servers { general; };
+        category config { general; };
+        category default { general; };
+        category security { general; slog; };
+        category dnssec { dnssec; };
+
+        category queries { query; };
+};
