@@ -1,0 +1,11 @@
+$ORIGIN .
+$TTL 1800	; 30 minutes
+100.168.192.in-addr.arpa IN SOA	ddi.fritz.box. dnsadmin.fritz.box. (
+				2023136875 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	ddi.fritz.box.
+$ORIGIN 100.168.192.in-addr.arpa.
