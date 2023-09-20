@@ -1,0 +1,7 @@
+"tsig-keys": [
+    {
+	"name": "rndc-key",
+	"algorithm": "hmac-sha256",
+	"secret": "your own key here"
+    }
+],
