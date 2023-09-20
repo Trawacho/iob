@@ -1,0 +1,110 @@
+{
+        "hw-address": "84:39:BE:69:41:08",
+        "ip-address": "192.168.100.2",
+	"hostname": "csl"
+},
+{
+        "hw-address": "E0:46:EE:18:EA:B4",
+        "ip-address": "192.168.100.4",
+	"hostname": "SwitchDB"
+},
+{
+        "hw-address": "6C:CD:D6:B6:18:56",
+        "ip-address": "192.168.100.5",
+	"hostname": "SwitchOffice"
+},
+{
+        "hw-address": "10:DA:43:1D:CF:D1",
+        "ip-address": "192.168.100.6",
+	"hostname": "SwitchWZ"
+},
+{
+        "hw-address": "00:17:C8:26:9C:57",
+        "ip-address": "192.168.100.7",
+	"hostname": "KM269C57"
+},
+{
+        "hw-address": "00:1D:EC:05:C1:AB",
+        "ip-address": "192.168.100.10",
+	"hostname": "vuduo2"
+},
+{
+        "hw-address": "4C:52:62:A8:83:89",
+        "ip-address": "192.168.100.11",
+	"hostname": "pve1"
+},
+{
+        "hw-address": "4C:52:62:A9:90:2E",
+        "ip-address": "192.168.100.12",
+	"hostname": "pve2"
+},
+{
+        "hw-address": "4C:52:62:A9:FE:1C",
+        "ip-address": "192.168.100.13",
+	"hostname": "omv1"
+},
+{
+        "hw-address": "36:2A:4A:87:71:4A",
+        "ip-address": "192.168.100.16",
+	"hostname": "wireguard"
+},
+{
+        "hw-address": "02:42:C0:A8:64:11",
+        "ip-address": "192.168.100.17",
+	"hostname": "pialert"
+},
+{
+        "hw-address": "02:42:C0:A8:64:12",
+        "ip-address": "192.168.100.18",
+	"hostname": "adguard"
+},
+{
+        "hw-address": "02:42:C0:A8:64:13",
+        "ip-address": "192.168.100.19",
+	"hostname": "oscam"
+},
+{
+        "hw-address": "02:42:C0:A8:64:14",
+        "ip-address": "192.168.100.20",
+	"hostname": "iobroker"
+},
+{
+        "hw-address": "02:42:C0:A8:64:15",
+        "ip-address": "192.168.100.21",
+	"hostname": "grafana"
+},
+{
+        "hw-address": "02:42:C0:A8:64:16",
+        "ip-address": "192.168.100.22",
+	"hostname": "influx"
+},
+{
+	"hw-address": "ba:a4:38:3a:bb:8c",
+	"ip-address": "192.168.100.23",
+	"hostname": "dockerOne"
+},
+{
+        "hw-address": "AC:8B:A9:44:60:8D",
+        "ip-address": "192.168.100.26",
+	"hostname": "U6-Pro-Terasse"
+},
+{
+        "hw-address": "AC:8B:A9:44:68:85",
+        "ip-address": "192.168.100.27",
+	"hostname": "U6-Pro-Dachboden"
+},
+{
+	"hw-address": "d8:b3:70:98:0d:81",
+	"ip-address": "192.168.100.28",
+	"hostname": "U6-Plus-Wohnen",
+},
+{
+        "hw-address": "C4:04:15:3E:10:6C",
+        "ip-address": "192.168.100.29",
+	"hostname": "WN3100RP"
+},
+{
+        "hw-address": "00:17:88:a7:d7:f2",
+        "ip-address": "192.168.100.159",
+	"hostname": "HueController"
+}
