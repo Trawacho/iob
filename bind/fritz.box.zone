@@ -1,0 +1,11 @@
+$ORIGIN .
+$TTL 1800	; 30 minutes
+fritz.box		IN SOA	ddi.fritz.box. dnsadmin.fritz.box. (
+				2023159393 ; serial
+				28800      ; refresh (8 hours)
+				7200       ; retry (2 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ddi.fritz.box.
+$ORIGIN fritz.box.
