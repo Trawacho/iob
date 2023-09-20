@@ -1,0 +1,16 @@
+
+zone "fritz.box" {
+	type master;
+	file "/var/lib/bind/fritz.box.zone";
+	allow-update {
+		key rndc-key;
+	};
+};
+
+zone "100.168.192.in-addr.arpa" {
+	type master;
+	file "/var/lib/bind/100.168.192.in-addr.arpa.zone";
+	allow-update {
+		key rndc-key;
+	};
+};
